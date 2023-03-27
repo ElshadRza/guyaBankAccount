@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Light;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bank {
+  font-family: Light;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bank input {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 15%;
+  height: 30px;
+}
+.bank button {
+  font-family: Light;
+  margin-top: 30px;
+  background-color: orange;
+  color: rgb(2, 2, 2);
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.bank h2 {
+  color: white;
+  margin-top: 20px;
+}
+.bank input::placeholder {
+  text-align: center;
+  font-family: Light;
+}
+.bank input[type=number] {
+  font-size: 14px;
+  text-align: center;
+  font-family: Light;
+}
+.bank input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.bank .info {
+  color: white;
+  margin-top: 20px;
+  margin-right: 110px;
+}
